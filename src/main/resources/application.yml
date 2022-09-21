@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: hotel-management
+  datasource:
+    url: jdbc:postgresql://localhost:5432/hotel-management
+    username: postgres
+    password: Sandrika123!
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+        show_sql: 'true'
+      show_sql: true
